@@ -29,7 +29,7 @@ tk.Label(window,text="AGE CALCULATOR",font=("Cambria",50),fg="blue",bg="lightgre
 tk.Label(window,text="Date Of Birth",font=("Ariel",30),fg="black",bg="lightgrey").pack(side="top")
 
 tk.Label(window,text="Year",font=("Cambria",15),fg="black",bg="lightgrey").pack(side="top")
-year_spinbox = tk.Spinbox(window,from_=1980, to=2024,state="readonly")
+year_spinbox = tk.Spinbox(window,from_=1940, to=2024,state="readonly")
 year_spinbox.pack(side="top")
 
 tk.Label(window,text="Month",font=("Cambria",15),fg="black",bg="lightgrey").pack(side="top")
